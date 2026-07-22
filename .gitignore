@@ -1,0 +1,29 @@
+# ==========================================================================
+# MIMIC-IV / PhysioNet microdata must NEVER be committed (data-use agreement).
+# ==========================================================================
+*.csv.gz
+data/
+physionet.org/
+
+# Ignore all CSVs by default as a safety net against committing microdata.
+*.csv
+# Publish only the derived, non-identifiable analytic tables.
+!tables/
+!tables/*.csv
+# Never publish patient-level intermediate caches.
+tables/_*.csv
+
+# Manuscript is kept out of the public code archive for now.
+manuscript/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+env/
+.env
+
+# OS
+.DS_Store
+Thumbs.db

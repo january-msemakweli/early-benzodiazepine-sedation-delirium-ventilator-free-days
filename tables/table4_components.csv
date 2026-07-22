@@ -1,0 +1,5 @@
+Association,Estimate (95% CI)
+A -> M: benzo -> incident delirium (OR),"1.33 (1.14, 1.54)"
+"M -> Y: delirium -> VFD, adj. for A (mean diff, days)","-2.58 (-3.17, -1.99)"
+"A -> Y: benzo -> VFD, adj. for M (mean diff, days)","-1.48 (-2.03, -0.94)"
+"A -> Y: benzo -> VFD, total (mean diff, days)","-1.60 (-2.15, -1.05)"

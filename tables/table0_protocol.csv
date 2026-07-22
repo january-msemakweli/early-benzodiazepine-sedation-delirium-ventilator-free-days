@@ -1,0 +1,11 @@
+Protocol element,Specification
+Eligibility,"Adults, first ICU stay, invasive ventilation + continuous sedation in first 24 h; ascertained at time zero"
+Treatment strategies,"Early benzodiazepine (midazolam/lorazepam infusion 0-24 h) vs non-benzodiazepine (propofol/dexmedetomidine, no benzo); opioids allowed in both"
+Assignment,Emulated randomization via stabilized IPTW on the full confounder set (ITT-like); overlap/unweighted as alternatives
+Time zero,ICU admission with qualifying ventilation + sedation in first 24 h
+Landmark,48 h for incident-delirium temporality (24/72 h sensitivity); selection weighted to broad population
+Follow-up,28 days; competing event in-hospital death (VFD=0 and cause-specific hazards)
+Causal contrasts,Total effect (broad); natural + interventional direct/indirect effects (landmark); proportion mediated
+Primary analysis,MICE + IPTW x selection weights + weighted g-computation; Rubin's-rules inference
+Sensitivity,Midazolam-only; no deep sedation; exclude indication; exclude CVICU; overlap; unweighted; landmark 24/48/72; sustained delirium
+Bias analyses,"E-value (total and NIE, point + CI limit); cause-specific hazards; 28-day mortality companion"

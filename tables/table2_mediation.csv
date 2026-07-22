@@ -1,0 +1,12 @@
+Effect,Estimate (95% CI)
+"Total effect, broad cohort (VFD days)","-1.29 (-1.64, -0.94)"
+"Total effect, landmark cohort (VFD days)","-1.62 (-2.48, -0.76)"
+"Natural direct effect (NDE), VFD days","-1.51 (-2.35, -0.68)"
+"Natural indirect effect (NIE), VFD days","-0.11 (-0.23, +0.02)"
+Proportion mediated,"6.6% (-1.8%, 15.0%)"
+"Interventional direct effect (IDE), VFD days","-1.51 (-2.35, -0.68)"
+"Interventional indirect effect (IIE), VFD days","-0.11 (-0.23, +0.02)"
+"NDE - mediator IPW (IORW), VFD days","-1.51 (-2.11, -0.63)"
+"NIE - mediator IPW (IORW), VFD days","-0.10 (-0.25, +0.00)"
+"NDE - overlap weights, VFD days","-1.60 (-2.24, -0.88)"
+"NIE - overlap weights, VFD days","+0.04 (-0.03, +0.10)"
