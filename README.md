@@ -1,5 +1,7 @@
 # Early Benzodiazepine Sedation, Delirium, and Ventilator-Free Days
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21500872.svg)](https://doi.org/10.5281/zenodo.21500872)
+
 Public analysis repository for a **causal mediation study** in critically ill adults:
 does early benzodiazepine sedation (versus non-benzodiazepine continuous sedation)
 reduce ventilator-free days, and how much of that effect is transmitted through
@@ -46,8 +48,9 @@ Analyses were implemented in Python (pandas, numpy, scikit-learn, statsmodels, m
 
 ## Citation and contact
 
-If you use this code or the analytic design, please cite the accompanying manuscript (when available) and MIMIC-IV:
+If you use this code or the analytic design, please cite this repository, the accompanying manuscript (when available), and MIMIC-IV:
 
+- This repository (archived): Msemakweli JG. Early Benzodiazepine Sedation, Delirium, and Ventilator-Free Days. Zenodo. https://doi.org/10.5281/zenodo.21500872
 - Johnson et al. MIMIC-IV. PhysioNet. https://doi.org/10.13026/kpb9-mt58
 
 Corresponding author: January G. Msemakweli (jmsemak1@jh.edu)
